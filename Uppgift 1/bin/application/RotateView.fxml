@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="80.0" prefWidth="163.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RotateController">
+   <children>
+      <Button id="btn_Clock_Play" fx:id="btn_Rotate_Play" layoutX="22.0" layoutY="44.0" mnemonicParsing="false" onAction="#event" text="Start" />
+      <Button id="btn_Clock_Stop" fx:id="btn_Rotate_Stop" layoutX="93.0" layoutY="44.0" mnemonicParsing="false" onAction="#event" text="Stop" />
+      <Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="25.0" layoutX="70.0" layoutY="14.0" stroke="BLACK" strokeType="INSIDE" width="24.0" />
+   </children>
+</AnchorPane>
