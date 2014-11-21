@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="80.0" prefWidth="163.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClockController">
+   <children>
+      <Button id="btn_Clock_Play" fx:id="btn_Clock_Play" layoutX="22.0" layoutY="44.0" mnemonicParsing="false" onAction="#event" text="Start" />
+      <Button id="btn_Clock_Stop" fx:id="btn_Clock_Stop" layoutX="93.0" layoutY="44.0" mnemonicParsing="false" onAction="#event" text="Stop" />
+      <Text fx:id="text" fill="RED" layoutX="62.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LeText">
+         <effect>
+            <Glow level="1.0" />
+         </effect></Text>
+   </children>
+</AnchorPane>

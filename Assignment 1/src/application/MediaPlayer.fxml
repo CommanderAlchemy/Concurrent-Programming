@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="75.0" maxWidth="230.0" prefHeight="75.0" prefWidth="230.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MediaController">
+   <children>
+      <Label id="lbl_NowPlaying" fx:id="lbl_NowPlaying" layoutX="14.0" layoutY="14.0" text="Now Playing:">
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Button id="btn_Player_Stop" fx:id="btn_Player_Stop" layoutX="169.0" layoutY="35.0" mnemonicParsing="false" onAction="#event" text="Stop">
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Button id="btn_Player_Toggle" fx:id="btn_Player_Play" layoutX="125.0" layoutY="35.0" mnemonicParsing="false" onAction="#event" text="Play">
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+      <Button id="btn_Player_Open" fx:id="btn_Player_Open" layoutX="14.0" layoutY="35.0" mnemonicParsing="false" onAction="#event" prefHeight="25.0" prefWidth="32.0" text="O">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <effect>
+            <Reflection />
+         </effect>
+      </Button>
+   </children>
+   <effect>
+      <Glow />
+   </effect>
+</AnchorPane>
